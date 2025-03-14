@@ -57,10 +57,7 @@ alignItems:"center",
     <div className="home" style={{ backgroundColor: "black" }}>
       <div className="video_head" style={videoHeadStyle}>
         <Header />
-        <video style={videoStyle} autoPlay loop muted>
-  <source src={intro} type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+        <video src={intro} autoPlay loop muted style={videoStyle} />
       </div>
       <button type="submit" style={buttonStyle}>REGISTER</button>
       <div>
